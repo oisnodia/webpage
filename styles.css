@@ -1,0 +1,27 @@
+h1{
+    border:3px solid black;
+    font-family: Arial,sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+body{
+    margin: 0;
+}
+#courses{
+    display: flex;
+    flex-wrap: wrap;
+}
+#courses>div{
+    background-color: springgreen;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+#about{
+    background-color: orange;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    margin: 0;
+}
